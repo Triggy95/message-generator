@@ -23,4 +23,4 @@ const truth = () => Math.random() >= 0.5;
 
 
 
-console.log(`this fortune is ${truth()} and will be told to you at age: ${randomAge()}. fortune: ${randomJoke()}`);
+console.log(`this fortune is ${truth() ? 'TRUE' : 'FALSE'} and will be told to you at age: ${randomAge()}. fortune: ${randomJoke()}`);
